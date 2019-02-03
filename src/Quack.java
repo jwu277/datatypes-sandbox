@@ -108,4 +108,9 @@ public class Quack<T> implements AbstractQuack<T> {
         this.bias = bias;
     }
 
+    @Override
+    public boolean isEmpty() {
+        return data.isEmpty();
+    }
+
 }

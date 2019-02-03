@@ -27,4 +27,10 @@ public interface AbstractQuack<T> {
      */
     T depop() throws EmptyQuackException;
 
+    /**
+     * See whether or not the quack is empty
+     * @return true iff quack does not hold any elements
+     */
+    boolean isEmpty();
+
 }
