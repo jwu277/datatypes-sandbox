@@ -53,7 +53,9 @@ public class Quack<T> implements AbstractQuack<T> {
     @Override
     public T depop() throws EmptyQuackException {
 
-        if (data.isEmpty()) {
+        System.out.println(data.size());
+
+        if (isEmpty()) {
             throw new EmptyQuackException("Cannot depop: quack is empty");
         }
 
@@ -84,10 +86,10 @@ public class Quack<T> implements AbstractQuack<T> {
 
         if (evenNumberOfElements) {
             /* bias ? LIFO : FIFO */
-            return bias ? (data.size() + 1) / 2 : (data.size() - 1) / 2;
+            return bias ? data.size() / 2 : data.size() / 2 - 1;
         }
         else {
-            return data.size() / 2;
+            return (data.size() - 1) / 2;
         }
 
     }
@@ -111,6 +113,28 @@ public class Quack<T> implements AbstractQuack<T> {
     @Override
     public boolean isEmpty() {
         return data.isEmpty();
+    }
+
+
+    /**
+     * Creates a shallow copy of the quack
+     * @return a shallow copy, where the quack is independent
+     *         but the elements are not necessarily so
+     */
+    public Quack<T> copy() {
+
+        /*
+         * Interestingly, copying it over thrice for FIFO bias and five times
+         * for LIFO bias with enpush/depop also works, provided the bias
+         * remains invariant.
+         */
+
+        Quack<T> quackCopy = new Quack<T>(bias);
+        quackCopy.data = new ArrayList<T>(this.data);
+        quackCopy.evenNumberOfElements = this.evenNumberOfElements;
+
+        return quackCopy;
+
     }
 
 }

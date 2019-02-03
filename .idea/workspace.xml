@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0a330466-d21b-480b-a211-12d861d9c9db" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractQuack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractQuack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datatypes/AbstractQuack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datatypes/AbstractQuack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datatypes/Quack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datatypes/Quack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datatypes/QuackTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datatypes/QuackTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Quack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/QuackTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuackTests.java" afterDir="false" />
     </list>
@@ -24,69 +26,56 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="11" />
+          <entry key="java" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="11" />
+          <entry key="JAVA" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3715" />
+          <entry key="java" value="5126" />
+          <entry key="txt" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3715" />
+          <entry key="JAVA" value="5126" />
+          <entry key="PLAIN_TEXT" value="37" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/QuackS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#154#155#0" expanded="true" />
-                <element signature="e#176#177#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AbstractQuack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/QuackTests.java">
+        <entry file="file://$PROJECT_DIR$/src/Quack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
+            <state relative-caret-position="194">
+              <caret line="91" column="20" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#451#452#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/EmptyQuackException.java">
+        <entry file="file://$PROJECT_DIR$/src/QuackTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="61" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
+            <state relative-caret-position="109">
+              <caret line="81" selection-start-line="81" selection-end-line="81" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#373#374#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#583#584#0" expanded="true" />
+                <element signature="e#615#616#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
+                <element signature="e#663#664#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -155,8 +144,8 @@
         <option value="$PROJECT_DIR$/src/RandomQuack.java" />
         <option value="$PROJECT_DIR$/src/RandomDynamicQuack.java" />
         <option value="$PROJECT_DIR$/src/AbstractQuack.java" />
-        <option value="$PROJECT_DIR$/src/Quack.java" />
         <option value="$PROJECT_DIR$/src/QuackTests.java" />
+        <option value="$PROJECT_DIR$/src/Quack.java" />
       </list>
     </option>
   </component>
@@ -196,7 +185,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549157318615" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549159828292" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
   </component>
   <component name="RunDashboard">
@@ -211,7 +200,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.Alpha">
     <configuration name="Alpha" type="JUnit" factoryName="JUnit">
       <module name="datatypes" />
       <option name="MAIN_CLASS_NAME" value="" />
@@ -223,6 +212,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QuackTests.testEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="datatypes" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="QuackTests" />
+      <option name="METHOD_NAME" value="testEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuackTests.testEmptyDepop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="datatypes" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="QuackTests" />
+      <option name="METHOD_NAME" value="testEmptyDepop" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.Alpha" />
+      <item itemvalue="JUnit.QuackTests.testEmptyDepop" />
+      <item itemvalue="JUnit.QuackTests.testEmpty" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.QuackTests.testEmpty" />
+        <item itemvalue="JUnit.QuackTests.testEmptyDepop" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -235,16 +255,45 @@
       <option name="presentableId" value="Default" />
       <updated>1549143318374</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added isEmpty() method and more tests">
+      <created>1549157345458</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1549157345458</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Alpha - 2019.02.02 at 14h 28m 31s.xml">
+    <history-entry file="QuackTests_testEmptyDepop - 2019.02.02 at 17h 40m 10s.xml">
+      <configuration name="QuackTests.testEmptyDepop" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuackTests_testEmpty - 2019.02.02 at 17h 41m 00s.xml">
+      <configuration name="QuackTests.testEmpty" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Alpha - 2019.02.02 at 17h 41m 08s.xml">
       <configuration name="Alpha" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Alpha - 2019.02.02 at 14h 51m 37s.xml">
+    <history-entry file="Alpha - 2019.02.02 at 17h 44m 14s.xml">
       <configuration name="Alpha" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Alpha - 2019.02.02 at 14h 52m 06s.xml">
+    <history-entry file="Alpha - 2019.02.02 at 17h 44m 29s.xml">
+      <configuration name="Alpha" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Alpha - 2019.02.02 at 17h 45m 51s.xml">
+      <configuration name="Alpha" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Alpha - 2019.02.02 at 17h 48m 37s.xml">
+      <configuration name="Alpha" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Alpha - 2019.02.02 at 17h 49m 17s.xml">
+      <configuration name="Alpha" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Alpha - 2019.02.02 at 18h 04m 53s.xml">
+      <configuration name="Alpha" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Alpha - 2019.02.02 at 18h 08m 41s.xml">
       <configuration name="Alpha" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -262,7 +311,7 @@
       <window_info anchor="bottom" id="Tool Output" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="ANTLR Preview" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3291815" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.3291815" />
       <window_info anchor="bottom" id="Style Checker" />
@@ -285,6 +334,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added isEmpty() method and more tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added isEmpty() method and more tests" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/RandomQuack.java">
@@ -330,33 +383,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AbstractQuack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Quack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="112" column="30" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#1737#1738#0" expanded="true" />
-            <element signature="e#1764#1765#0" expanded="true" />
-            <element signature="e#1911#1912#0" expanded="true" />
-            <element signature="e#1943#1944#0" expanded="true" />
-            <element signature="e#2448#2449#0" expanded="true" />
-            <element signature="e#2469#2470#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/QuackS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -368,14 +394,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractQuack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/QuackTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
+        <state relative-caret-position="109">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Quack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="91" column="20" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
